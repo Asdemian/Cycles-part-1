@@ -35,5 +35,13 @@ public class Main {
             theAmountOfAccumulation = theAmountOfAccumulation + contribution;
             System.out.println("Месяц " +i+ " , сумма накоплений равна " +theAmountOfAccumulation+ " рублей.");
         }
+        //task 1-1-2
+        int contribution1 = 29000;
+        int theAmountOfAccumulation1 = 0;
+        for (int i = 1; i <=12; i ++) {
+            theAmountOfAccumulation1 = theAmountOfAccumulation1 + contribution1;
+            System.out.println("Месяц " +i+ " , сумма накоплений равна " +theAmountOfAccumulation1+ " рублей.");
+            theAmountOfAccumulation1 = theAmountOfAccumulation1 + (contribution1 / 100);
+        }
     }
 }
