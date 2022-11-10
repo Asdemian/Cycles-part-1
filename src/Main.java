@@ -16,5 +16,9 @@ public class Main {
         for (int i = 10; i >= -10; i = i - 1) {
             System.out.println( "Итерация цикла " +i);
         }
+        //task 1-1
+        for (int i = 1904; i <= 2096; i = i + 4) {
+            System.out.println(i+ " год является високосным.");
+        }
     }
 }
