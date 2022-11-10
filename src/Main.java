@@ -13,7 +13,7 @@ public class Main {
             System.out.println( "Итерация цикла " +i);
         }
         //task 4
-        for (int i = 10; i >= -10; i --) {
+        for (int i = 10; i >= -10; i = i - 1) {
             System.out.println( "Итерация цикла " +i);
         }
     }
